@@ -12,13 +12,17 @@ return require('packer').startup(function(use)
   }	
 
   use({
-      'rose-pine/neovim',
-      as = 'rose-pine',
+      'folke/tokyonight.nvim',
+      as = 'tokyonight',
       config = function ()
-          require('rose-pine').setup({
+          require('tokyonight').setup({
+              style = "night",
+              styles = {
+                italics = false
+              },
               disable_italics = true  -- Disable all italics  -- Optional: choose a variant ('main', 'moon', or 'dawn')
           })
-          vim.cmd('colorscheme rose-pine');
+          vim.cmd('colorscheme tokyonight');
       end
   })
 
