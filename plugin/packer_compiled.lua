@@ -79,6 +79,12 @@ _G.packer_plugins = {
     path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["alpha-nvim"] = {
+    config = { "\27LJ\2\na\0\0\5\0\5\0\n6\0\0\0'\2\1\0B\0\2\0029\0\2\0006\2\0\0'\4\3\0B\2\2\0029\2\4\2B\0\2\1K\0\1\0\vconfig\27alpha.themes.dashboard\nsetup\nalpha\frequire\0" },
+    loaded = true,
+    path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/alpha-nvim",
+    url = "https://github.com/goolord/alpha-nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -119,6 +125,17 @@ _G.packer_plugins = {
     path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
+  ["lualine.nvim"] = {
+    config = { "\27LJ\2\n�\4\0\0\5\0\24\0\0276\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\b\0005\3\3\0005\4\4\0=\4\5\0035\4\6\0=\4\a\3=\3\t\0025\3\v\0005\4\n\0=\4\f\0035\4\r\0=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\0035\4\19\0=\4\20\0035\4\21\0=\4\22\3=\3\23\2B\0\2\1K\0\1\0\rsections\14lualine_z\1\2\0\0\rlocation\14lualine_y\1\2\0\0\rprogress\14lualine_x\1\4\0\0\rencoding\15fileformat\rfiletype\14lualine_c\1\2\0\0\rfilename\14lualine_b\1\4\0\0\vbranch\tdiff\16diagnostics\14lualine_a\1\0\6\14lualine_b\0\14lualine_c\0\14lualine_x\0\14lualine_y\0\14lualine_z\0\14lualine_a\0\1\2\0\0\tmode\foptions\1\0\2\rsections\0\foptions\0\25component_separators\1\0\2\nright\b\tleft\b\23section_separators\1\0\2\nright\b\tleft\b\1\0\3\25component_separators\0\23section_separators\0\ntheme\tauto\nsetup\flualine\frequire\0" },
+    loaded = true,
+    path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -144,6 +161,12 @@ _G.packer_plugins = {
     path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-web-devicons"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -164,16 +187,16 @@ _G.packer_plugins = {
     path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  tokyonight = {
-    config = { "\27LJ\2\n�\1\0\0\4\0\t\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\2B\0\2\0016\0\6\0009\0\a\0'\2\b\0B\0\2\1K\0\1\0\27colorscheme tokyonight\bcmd\bvim\vstyles\1\0\1\fitalics\1\1\0\3\nstyle\nnight\20disable_italics\2\vstyles\0\nsetup\15tokyonight\frequire\0" },
-    loaded = true,
-    path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/tokyonight",
-    url = "https://github.com/folke/tokyonight.nvim"
-  },
   undotree = {
     loaded = true,
     path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vague.nvim"] = {
+    config = { "\27LJ\2\n5\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\22colorscheme vague\bcmd\bvim\0" },
+    loaded = true,
+    path = "/home/vedantsagwal/.local/share/nvim/site/pack/packer/start/vague.nvim",
+    url = "https://github.com/vague2k/vague.nvim"
   },
   ["vim-fugitive"] = {
     loaded = true,
@@ -183,10 +206,18 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: tokyonight
-time([[Config for tokyonight]], true)
-try_loadstring("\27LJ\2\n�\1\0\0\4\0\t\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\2B\0\2\0016\0\6\0009\0\a\0'\2\b\0B\0\2\1K\0\1\0\27colorscheme tokyonight\bcmd\bvim\vstyles\1\0\1\fitalics\1\1\0\3\nstyle\nnight\20disable_italics\2\vstyles\0\nsetup\15tokyonight\frequire\0", "config", "tokyonight")
-time([[Config for tokyonight]], false)
+-- Config for: vague.nvim
+time([[Config for vague.nvim]], true)
+try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\22colorscheme vague\bcmd\bvim\0", "config", "vague.nvim")
+time([[Config for vague.nvim]], false)
+-- Config for: alpha-nvim
+time([[Config for alpha-nvim]], true)
+try_loadstring("\27LJ\2\na\0\0\5\0\5\0\n6\0\0\0'\2\1\0B\0\2\0029\0\2\0006\2\0\0'\4\3\0B\2\2\0029\2\4\2B\0\2\1K\0\1\0\vconfig\27alpha.themes.dashboard\nsetup\nalpha\frequire\0", "config", "alpha-nvim")
+time([[Config for alpha-nvim]], false)
+-- Config for: lualine.nvim
+time([[Config for lualine.nvim]], true)
+try_loadstring("\27LJ\2\n�\4\0\0\5\0\24\0\0276\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\b\0005\3\3\0005\4\4\0=\4\5\0035\4\6\0=\4\a\3=\3\t\0025\3\v\0005\4\n\0=\4\f\0035\4\r\0=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\0035\4\19\0=\4\20\0035\4\21\0=\4\22\3=\3\23\2B\0\2\1K\0\1\0\rsections\14lualine_z\1\2\0\0\rlocation\14lualine_y\1\2\0\0\rprogress\14lualine_x\1\4\0\0\rencoding\15fileformat\rfiletype\14lualine_c\1\2\0\0\rfilename\14lualine_b\1\4\0\0\vbranch\tdiff\16diagnostics\14lualine_a\1\0\6\14lualine_b\0\14lualine_c\0\14lualine_x\0\14lualine_y\0\14lualine_z\0\14lualine_a\0\1\2\0\0\tmode\foptions\1\0\2\rsections\0\foptions\0\25component_separators\1\0\2\nright\b\tleft\b\23section_separators\1\0\2\nright\b\tleft\b\1\0\3\25component_separators\0\23section_separators\0\ntheme\tauto\nsetup\flualine\frequire\0", "config", "lualine.nvim")
+time([[Config for lualine.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
